@@ -1,13 +1,6 @@
-## [project-title] Changelog
+## Sentiment Analysis and Opinion Mining with the Azure Text Analytics Client Library Changelog
 
-<a name="x.y.z"></a>
-# x.y.z (yyyy-mm-dd)
+# 2022-04-27
 
 *Features*
-* ...
-
-*Bug Fixes*
-* ...
-
-*Breaking Changes*
-* ...
+* Added demo sample
