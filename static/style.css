@@ -1,0 +1,77 @@
+body {
+  background-color: black;
+  font-family: Arial;
+  color: white;
+}
+
+.box {
+  margin: 0 auto;
+  display: flex;
+}
+
+p {
+  font-size: 14px;
+  color: #538b01;
+  font-weight: bold;
+  font-style: italic;
+}
+
+mark.red {
+  color: #ff0000;
+  background: none;
+}
+
+mark.green {
+  color: #00FF00;
+  background: none;
+}
+
+mark.purple {
+  color: #d614d6;
+  background: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 500px;
+  height: 100px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+
+.button {
+  background-color: #78817e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+
+.button:hover {
+  background-color: #4e524e;
+}
+
+.indent {
+  text-indent: 50px;
+}
+
+.doubleindent {
+  text-indent: 100px;
+}
