@@ -5,17 +5,11 @@
 
 import os
 from flask import Flask, render_template, request
+from pathlib import Path
 from helpers import color_code_sentiment
 
-static_folder = os.path.abspath(
-    os.path.join(
-        os.path.abspath(__file__),
-        "..",
-        "./static",
-    )
-)
+app = Flask(__name__, static_folder=Path("static").resolve())
 
-app = Flask(__name__, static_folder=static_folder)
 
 @app.route('/')
 def index():
